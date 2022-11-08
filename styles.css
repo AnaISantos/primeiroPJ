@@ -194,6 +194,14 @@ body {
     font-weight: 700;
 }
 
+.secao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+
+
 .cartao { 
     width: 100%;
     border-radius: 15px;
@@ -205,7 +213,12 @@ body {
     display: none;
 }
 
-cartao--destaque {
+.cartao-produtos {
+    margin: 20px 0;
+}
+
+
+.cartao--destaque {
     margin-bottom: 16px;
 }
 
